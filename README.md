@@ -35,7 +35,7 @@ pnpm dev   # http://localhost:3000
 Not: pnpm dev yerine npm run dev de kullanabilirsiniz. Proje Next.js 14 ile derlenir.
 
 🔧 Deploy
-master dalına push yaptığınızda Firebase App Hosting CI/CD boru hattı otomatik olarak:
+main dalına push yaptığınızda Firebase App Hosting CI/CD boru hattı otomatik olarak:
 
 pnpm install && pnpm build çalıştırır
 
@@ -47,11 +47,10 @@ bash
 Kodu kopyala
 git add .
 git commit -m "Update"
-git push origin master
+git push origin main
 “Bilgiyi paylaş, geleceği kur!” 🚀
 
-markdown
+css
 Kodu kopyala
 
-👉 Bu dosyayı `README.md` olarak kaydedip GitHub’a push ettiğinde otomatik güncellenecek.  
-
+👉 Bunu `README.md` dosyanın içine yapıştırıp commit + push ettiğinde branch referansların **main** olacak.
